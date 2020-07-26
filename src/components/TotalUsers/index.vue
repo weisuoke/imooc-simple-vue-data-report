@@ -57,7 +57,6 @@ export default {
           data: [200],
           stack: '总量',
           renderItem: (params, api) => {
-            console.log(params, api)
             const value = api.value(0)
             const endPoint = api.coord([value, 0])
 
